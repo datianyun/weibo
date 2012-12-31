@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-partials' ]
+2 info using npm@1.1.33
+3 info using node@v0.8.1
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose config file C:\Users\tianyun\.npmrc
+6 verbose config file C:\Program Files\nodejs\etc\npmrc
+7 verbose config file C:\Program Files\nodejs\node_modules\npm\npmrc
+8 verbose read json D:\nodeworkspace\weibo\package.json
+9 verbose read json D:\nodeworkspace\weibo\node_modules\connect-flash\package.json
+10 verbose read json D:\nodeworkspace\weibo\node_modules\connect-mongo\package.json
+11 verbose read json D:\nodeworkspace\weibo\node_modules\crypto\package.json
+12 verbose read json D:\nodeworkspace\weibo\node_modules\ejs\package.json
+13 verbose read json D:\nodeworkspace\weibo\node_modules\express\package.json
+14 verbose read json D:\nodeworkspace\weibo\node_modules\mongodb\package.json
+15 verbose from cache D:\nodeworkspace\weibo\package.json
+16 verbose readDependencies using package.json deps
+17 verbose cache add [ 'express-partials', null ]
+18 silly cache add name=undefined spec="express-partials" args=["express-partials",null]
+19 verbose parsed url { pathname: 'express-partials',
+19 verbose parsed url   path: 'express-partials',
+19 verbose parsed url   href: 'express-partials' }
+20 verbose lock express-partials C:\Users\tianyun\AppData\Roaming\npm-cache\8ad30f849bc5d53288ca3d73c6aee74f5edf8ffd-express-partials.lock
+21 verbose addNamed [ 'express-partials', '' ]
+22 verbose addNamed [ null, '' ]
+23 verbose lock express-partials@ C:\Users\tianyun\AppData\Roaming\npm-cache\a99eb8d5d6454834e465bf6482bb3bee6b6a5ca9-express-partials-.lock
+24 silly addNameRange { name: 'express-partials', range: '', hasData: false }
+25 verbose url raw express-partials
+26 verbose url resolving [ 'https://registry.npmjs.org/', './express-partials' ]
+27 verbose url resolved https://registry.npmjs.org/express-partials
+28 info retry registry request attempt 1 at 19:43:48
+29 http GET https://registry.npmjs.org/express-partials
+30 http 200 https://registry.npmjs.org/express-partials
+31 silly registry.get cb [ 200,
+31 silly registry.get   { vary: 'Accept',
+31 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+31 silly registry.get     etag: '"6Y2JNV27W42LDZP55XX2LBUXI"',
+31 silly registry.get     date: 'Sun, 12 Aug 2012 11:43:52 GMT',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'content-length': '7491' } ]
+32 silly addNameRange number 2 { name: 'express-partials', range: '', hasData: true }
+33 silly addNameRange versions [ 'express-partials',
+33 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5' ] ]
+34 verbose addNamed [ 'express-partials', '0.0.5' ]
+35 verbose addNamed [ '0.0.5', '0.0.5' ]
+36 verbose lock express-partials@0.0.5 C:\Users\tianyun\AppData\Roaming\npm-cache\11b7bc267b02f9e319fd4619e3a7a9e361f121da-express-partials-0-0-5.lock
+37 verbose lock https://registry.npmjs.org/-/express-partials-0.0.5.tgz C:\Users\tianyun\AppData\Roaming\npm-cache\77d64d361f6d421be13aa92a0cb4501831c067d0-https-registry-npmjs-org-express-partials-0-0-5-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/-/express-partials-0.0.5.tgz',
+38 verbose addRemoteTarball   '17ea907ee0bc4b32e6457fe30f7198e0f8b48975' ]
+39 info retry fetch attempt 1 at 19:43:53
+40 verbose fetch to= C:\Users\tianyun\AppData\Local\Temp\npm-6644\1344771833152-0.31735653476789594\tmp.tgz
+41 http GET https://registry.npmjs.org/-/express-partials-0.0.5.tgz
+42 http 404 https://registry.npmjs.org/-/express-partials-0.0.5.tgz
+43 error fetch failed https://registry.npmjs.org/-/express-partials-0.0.5.tgz
+44 error Error: 404 Not Found
+44 error     at null.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\fetch.js:47:16)
+44 error     at EventEmitter.emit (events.js:115:20)
+44 error     at WriteStream.flush (fs.js:1503:12)
+44 error     at fs.close (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:94:5)
+44 error     at Object.oncomplete (fs.js:297:15)
+44 error  [Error: 404 Not Found]
+45 error You may report this log at:
+45 error     <http://github.com/isaacs/npm/issues>
+45 error or email it to:
+45 error     <npm-@googlegroups.com>
+46 error System Windows_NT 6.1.7600
+47 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-partials"
+48 error cwd D:\nodeworkspace\weibo
+49 error node -v v0.8.1
+50 error npm -v 1.1.33
+51 error message 404 Not Found
+52 verbose exit [ 1, true ]
